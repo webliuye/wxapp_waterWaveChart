@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="waterWave"  >
+  <view style="width:100px; height:100px;overflow: hidden ">
+    <canvas  class="waterWaveCanvasWrapper"   canvas-id="myCanvas" style="width:100px; height:100px;"   >
+        <cover-view class="text" style="width:100px;">
+            <cover-view class="span">占有率</cover-view>
+            <cover-view class="h4">70%</cover-view>
+        </cover-view>
+    </canvas>
+  </view> 
+  
+</view> 
